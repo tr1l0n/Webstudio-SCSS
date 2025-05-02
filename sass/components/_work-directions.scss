@@ -1,0 +1,36 @@
+.work-directions {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    &-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.19px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 50px;
+    }
+    &-wrapper{
+        position: relative;
+            width: 370px;
+            height: 294px;
+            &-title{
+                position: absolute;
+                bottom: 0;
+                left: 0%;
+                z-index: 2;
+                font-family: "Roboto";
+                font-weight: 700;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-align: center;
+                padding-top: 25px;
+                width: 370px;
+                height: 70px;
+                background-color: rgba(47, 48, 58, 0.8);
+            }
+    }
+}

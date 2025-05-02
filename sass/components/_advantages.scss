@@ -1,0 +1,64 @@
+.advantages {
+    height: 760px;
+    &-list{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 100px;
+        &-li{
+            width: 270px;
+                text-align: center;
+                pad: 20px;
+                &::before{
+                    content: "";
+                    display: block;
+                    width: 270px;
+                    height: 120px;
+                    background-size: contain;
+                    background-position: center;
+                    margin: 0 auto 10px;
+                }
+                &:nth-child(1)::before{
+                    background-image: url(../img/anthena.jpg);
+                        background-repeat: no-repeat;
+                        border-radius: 5px;
+                }
+                &:nth-child(2)::before{
+                    background-image: url(../img/clock.jpg);
+                        background-repeat: no-repeat;
+                        border-radius: 5px;
+                }
+                &:nth-child(3)::before{
+                    background-image: url(../img/graphics.jpg);
+                        background-repeat: no-repeat;
+                        border-radius: 5px;
+                }
+                &:nth-child(4)::before{
+                    background-image: url(../img/astronaut.jpg);
+                        background-repeat: no-repeat;
+                        border-radius: 5px;
+                }
+        }
+    }
+}
+.advantage-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+}
+.advantages-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+}

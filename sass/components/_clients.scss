@@ -1,0 +1,43 @@
+.clients {
+    height: 370px;
+    &-title{
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    &-list{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        &-li{
+            width: 170px;
+            height: 92px;
+            border: 1px solid rgba(175, 177, 184, 1);
+            border-radius: 7%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                border: 1px solid rgba(33, 150, 243, 1);
+            }
+        }
+    }
+}
+.foster {
+    opacity: 0.6;
+}
+.svg-client {
+    color: rgba(175, 177, 184, 1);
+    width: 170px;
+    height: 92px;
+    padding-top: 25px;
+    padding-left: 50px;
+    &:hover{
+        color: #2196F3;
+        opacity: 1;
+    }
+}

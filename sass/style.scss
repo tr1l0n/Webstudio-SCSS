@@ -1,0 +1,30 @@
+@import "./components/header";
+@import "./components/hero";
+@import "./components/advantages";
+@import "./components/work-directions";
+@import "./components/ourteam";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/mainport";
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: "Roboto";
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--royal-color)
+}

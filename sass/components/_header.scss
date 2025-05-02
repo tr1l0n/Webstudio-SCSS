@@ -1,0 +1,79 @@
+@import "../utilities/variables";
+.page-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo-Web {
+    color: $brand-color;
+    font-family: "Raleway";
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-right: 200px;
+    &-link{
+            color: black;
+            font-family: "Roboto";
+            font-weight: 500;
+            position: relative;
+    }
+    &-link:hover{
+        color: $brand-color;
+    }
+}
+.active-port::after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 5px;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 2px;
+    top: 45px;
+    left: 2px;
+    animation-name: line;
+    animation-duration: 0.5s;
+}
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: "Raleway";
+}
+.nav-extra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    &-phonenumber{
+        color: #757575;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+}
+.svg-email,
+.svg-phone {
+    color: rgba(117, 117, 117, 1);
+}
+.svg-email:hover {
+    color: rgba(33, 150, 243, 1);
+}
+.active::after {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 5px;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 2px;
+    top: 45px;
+    left: 2px;
+    animation-name: line;
+    animation-duration: 0.5s;
+}
