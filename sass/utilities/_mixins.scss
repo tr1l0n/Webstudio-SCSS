@@ -1,0 +1,10 @@
+@mixin small-text($font){
+    font-size: 14px;
+    font-weight: $font;
+    font-family: "Roboto";
+}
+@mixin medium-text($font){
+    font-size: 16px;
+    font-weight: $font;
+    font-family: "Roboto";
+}

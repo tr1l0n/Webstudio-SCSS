@@ -124,9 +124,10 @@
 }
 
 .button {
-  background-color: #2196F3;
   font-size: 16px;
   font-weight: 700;
+  font-family: "Roboto";
+  background-color: #2196F3;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
@@ -230,9 +231,9 @@
 }
 
 .label-form {
-  font-family: "Roboto";
+  font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-family: "Roboto";
   color: rgb(117, 117, 117);
 }
 
@@ -266,13 +267,13 @@
 }
 
 #comment-modal {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
   color: rgba(117, 117, 117, 0.5);
   opacity: 0.5;
   padding-left: 10px;
@@ -287,11 +288,11 @@
 }
 
 .agreements-modal {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
   position: absolute;
   color: rgb(117, 117, 117);
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
   top: 440px;
   left: 75px;
   width: 400px;
@@ -392,28 +393,33 @@
 .advantage-item {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
+  font-family: "Roboto";
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-align: left;
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   text-transform: uppercase;
+  padding-top: 15px;
 }
 
 .advantages-info {
   font-size: 14px;
   font-weight: 400;
+  font-family: "Roboto";
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 3%;
   text-align: left;
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #757575;
+  padding-top: 15px;
 }
 
 .work-directions {
+  height: 500px;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -435,13 +441,13 @@
   height: 294px;
 }
 .work-directions-wrapper-title {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
   position: absolute;
   bottom: 0;
   left: 0%;
   z-index: 2;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: center;
@@ -454,6 +460,7 @@
 .ourteam {
   background-color: #f5f4fa;
   height: 648px;
+  margin-top: 100px;
 }
 .ourteam-wrapper {
   display: flex;
@@ -491,17 +498,20 @@
 .names {
   font-size: 16px;
   font-weight: 500;
+  font-family: "Roboto";
   line-height: 18.75px;
   letter-spacing: 0.03em;
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   text-align: center;
+  padding-top: 30px;
 }
 
 #proffession {
   font-size: 16px;
   font-weight: 400;
+  font-family: "Roboto";
   line-height: 18.75px;
   letter-spacing: 0.03em;
   text-underline-position: from-font;
@@ -509,6 +519,7 @@
           text-decoration-skip-ink: none;
   text-align: center;
   color: #757575;
+  padding-top: 10px;
 }
 
 .div-svg {
@@ -624,9 +635,9 @@
 }
 
 .title-footer-svg {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
   line-height: 100%;
   letter-spacing: 3%;
   text-transform: uppercase;
@@ -657,34 +668,35 @@
 }
 
 .title-form-footer {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
   text-transform: uppercase;
   color: rgb(255, 255, 255);
 }
 
 .input-form-footer {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
   line-height: 20px;
   vertical-align: middle;
   color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border-radius: 4px;
+  padding-left: 15px;
 }
 
 .btn-sub-footer {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto";
   width: 200px;
   height: 50px;
   background-color: rgb(33, 150, 243);
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 16px;
   color: rgb(255, 255, 255);
   border: 1px solid transparent;
   margin-top: 30px;
@@ -730,11 +742,12 @@
   margin-bottom: 50px;
 }
 .nav-page-button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
   background-color: #f5f4fa;
   border-color: transparent;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.03em;
 }
@@ -758,11 +771,14 @@
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   padding-left: 20px;
+  height: 36px;
+  margin-top: 10px;
 }
 
 .wheretouse {
   font-size: 16px;
   font-weight: 400;
+  font-family: "Roboto";
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -771,12 +787,15 @@
           text-decoration-skip-ink: none;
   color: #757575;
   padding-left: 20px;
+  height: 30px;
+  margin-bottom: 15px;
 }
 
 .main-img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-left: 50px;
 }
 
 .item {
@@ -792,6 +811,9 @@
 }
 
 .wrapper-item-hover {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
   opacity: 0;
   width: 340px;
   height: 274px;
@@ -803,9 +825,6 @@
   top: 0;
   left: 0;
   color: white;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Roboto";
   line-height: 28px;
   letter-spacing: 3%;
 }

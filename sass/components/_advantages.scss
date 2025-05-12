@@ -1,3 +1,4 @@
+@import "../utilities/mixins";
 .advantages {
     height: 760px;
     &-list{
@@ -43,22 +44,22 @@
     }
 }
 .advantage-item {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16.41px;
+    @include small-text(700);
+    line-height: 100%;
     letter-spacing: 0.03em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 .advantages-info {
-    font-size: 14px;
-    font-weight: 400;
+    @include small-text(400);
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 3%;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #757575;
+    padding-top: 15px;
 }

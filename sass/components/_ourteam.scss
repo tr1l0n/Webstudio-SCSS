@@ -1,6 +1,8 @@
+@import "../utilities/mixins";
 .ourteam {
     background-color: #f5f4fa;
     height: 648px;
+    margin-top: 100px;
     &-wrapper{
         display: flex;
         justify-content: center;
@@ -36,24 +38,24 @@
     }
 }
 .names {
-    font-size: 16px;
-    font-weight: 500;
+    @include medium-text(500);
     line-height: 18.75px;
     letter-spacing: 0.03em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     text-align: center;
+    padding-top: 30px
 }
 
 #proffession {
-    font-size: 16px;
-    font-weight: 400;
+    @include medium-text(400);
     line-height: 18.75px;
     letter-spacing: 0.03em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     text-align: center;
     color: #757575;
+    padding-top: 10px;
 }
 .div-svg {
     display: flex;
