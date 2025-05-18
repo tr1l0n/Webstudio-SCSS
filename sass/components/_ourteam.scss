@@ -84,3 +84,33 @@
         color: white;
     }
 }
+@media (min-width:480px) and (max-width:760px) {
+    .ourteam{
+        height: 2760px;
+        &-wrapper-title{
+            font-family: "Roboto";
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 100%;
+                letter-spacing: 3%;
+                text-align: center;
+        }
+        &-list{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            &-card{
+                width: 450px;
+                height: 622px;
+            }
+        }
+    }
+    .img-card{
+        width: 450px;
+        height: 460px;
+    }
+    .div-svg{
+        justify-content: center;
+        gap: 10px;
+    }
+}

@@ -34,3 +34,11 @@
             }
     }
 }
+@media (min-width:480px) and (max-width:760px) {
+    .work-directions-title{
+        display: none;
+    }
+    .work-directions{
+        display: none;
+    }
+}

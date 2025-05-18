@@ -36,6 +36,9 @@
                     <p>+38 096 111 11 11</p>
                 </li>
             </ul>
+            <svg width="24px" height="16px" class="head-burger">
+                <use href="./symbols.svg#head-phone"></use>
+            </svg>
         </header>
     </div>
     <section class="background-color hero">
@@ -50,8 +53,8 @@
                 <div class="back-drop is-hidden" data-modal>
                     <div class="modal">
                         <button class="btn" data-modal-close>
-                            <svg width="11px" height="11px" class="close">
-                                <use href="./symbols.svg#close" width="11px" height="11px" class="close"></use> 
+                            <svg width="30px" height="30px" class="close">
+                                <use href="./symbols.svg#close" width="11px" height="11px" ></use> 
                             </svg>
                         </button>
                         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
@@ -92,18 +95,38 @@
     <div class="container">
         <ul class="advantages-list">
             <li class="advantages-list-li">
+                <div class="advantages-photo">
+                    <svg width="70px" height="70px">
+                        <use href="./symbols.svg#anthena"></use>
+                    </svg>
+                </div>
                 <h2 class="advantage-item">Увага до деталей</h2>
                 <p class="advantages-info">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li class="advantages-list-li">
+                <div class="advantages-photo">
+                    <svg width="70px" height="70px">
+                        <use href="./symbols.svg#clock"></use>
+                    </svg>
+                </div>
                 <h2 class="advantage-item">Пунктуальність</h2>
                 <p class="advantages-info">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li class="advantages-list-li">
+                <div class="advantages-photo">
+                    <svg width="70px" height="70px">
+                        <use href="./symbols.svg#diagram"></use>
+                    </svg>
+                </div>
                 <h2 class="advantage-item">Планування</h2>
                 <p class="advantages-info">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="advantages-list-li">
+                <div class="advantages-photo">
+                    <svg width="70px" height="70px">
+                        <use href="./symbols.svg#astronaut"></use>
+                    </svg>
+                </div>
                 <h2 class="advantage-item">Сучасні технології</h2>
                 <p class="advantages-info">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
@@ -132,7 +155,7 @@
         </div>
         <ul class="ourteam-list">
             <li class="ourteam-list-card">
-                <img src="./img/igor.jpg" alt="Фото Ігора" width="270px" height="260px">
+                <img src="./img/igor.jpg" alt="Фото Ігора" width="270px" height="260px" class="img-card">
                 <h3 class="names">Ігор Дем'яненко</h3>
                 <p id="proffession">Product designer</p>
                 <div class="div-svg">
@@ -159,7 +182,7 @@
                 </div>
             </li>
             <li class="ourteam-list-card">
-                <img src="./img/olga.jpg" alt="фото Ольги" width="270" height="260">
+                <img src="./img/olga.jpg" alt="фото Ольги" width="270" height="260" class="img-card">
                 <h3 class="names">Ольга Рєпіна</h3>
                 <p id="proffession">Frontend developer</p>
                 <div class="div-svg">
@@ -186,7 +209,7 @@
                 </div>
             </li>
             <li class="ourteam-list-card">
-                <img src="./img/mykola.jpg" alt="Фото Миколи" width="270" height="260">
+                <img src="./img/mykola.jpg" alt="Фото Миколи" width="270" height="260" class="img-card">
                 <h3 class="names">Микола Тарасов</h3>
                 <p id="proffession">Marketing</p>
                 <div class="div-svg">
@@ -213,7 +236,7 @@
                 </div>
             </li>
             <li class="ourteam-list-card">
-                <img src="./img/misha.jpg" alt="Фото Міши" width="270" height="260">
+                <img src="./img/misha.jpg" alt="Фото Міши" width="270" height="260" class="img-card">
                 <h3 class="names">Михайло Єрмаков</h3>
                 <p id="proffession">UI Designer</p>
                 <div class="div-svg">
@@ -288,7 +311,7 @@
                     <h4 class="logo"><a href="#" class="logo-bottom"><span class="logo-Web">Web</span>Studio</a></h4>
                     <ul class="page-footer-list">
                         <li class="page-footer-list-li">м.Київ, пр-т Лесі Українки, 26</li>
-                        <li ><a href="#" class="bottominfo">info@devstudio.com</a></li>
+                        <li class="page-footer-list-li"><a href="#" class="bottominfo">info@devstudio.com</a></li>
                         <li class="bottominfo" >+38 096 111 11 21</li>
                     </ul>
                 </div>
@@ -322,10 +345,12 @@
                         <label class="title-form-footer">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
                         <input type="text" placeholder="E-mail" class="input-form-footer">
                     </form>
-                    <button class="btn-sub-footer">Підписатися</button>
-                    <svg width="24px" height="24px" class="svg-tg-footer">
-                        <use href="./symbols.svg#tgfooter" width="24px" height="24px"></use>
-                    </svg>
+                    <div class="footer-tg-btn">
+                        <button class="btn-sub-footer">Підписатися</button>
+                        <svg width="24px" height="24px" class="svg-tg-footer">
+                            <use href="./symbols.svg#tgfooter" width="24px" height="24px"></use>
+                        </svg>
+                    </div>
                 </div>
             </footer>
         </section>

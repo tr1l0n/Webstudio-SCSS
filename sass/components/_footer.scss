@@ -117,3 +117,71 @@
 .bottom-adress {
     color: #FFFFFF;
 }
+@media (min-width:480px) and (max-width:760px) {
+    .page-footer{
+        flex-direction: column;
+        height: 653px;
+        padding-top: 50px;
+        &-div{
+            gap: 0px;
+        }
+    }
+    .logo{
+        text-align: center;
+    }
+    .page-footer-list-li{
+        text-align: center;
+        font-family: "Roboto";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 3%;
+            text-align: center;
+    }
+    .bottominfo{
+        text-align: center;
+    }
+    .title-footer-svg{
+        text-align: center;
+        font-family: "Roboto";
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 3%;
+            text-align: center;
+            text-transform: uppercase;
+    }
+    .list-svg-footer{
+        padding-left: 10px;
+    }
+    .form-div-footer{
+        display: block;
+    }
+    .title-form-footer{
+        text-align: center;
+        font-family: "Roboto";
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 3%;
+            text-align: center;
+            text-transform: uppercase;
+    }
+    .input-form-footer{
+        width: 450px;
+        height: 50px;
+    }
+    .btn-sub-footer{
+        transform: translate(60%,50%);
+        margin-top: 0px;
+    }
+    .svg-tg-footer{
+        position: absolute;
+        left: 270px;
+        z-index: 2;
+        top: 35px;
+    }
+    .footer-tg-btn{
+        position: relative;
+    }
+}
