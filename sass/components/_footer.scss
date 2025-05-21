@@ -185,3 +185,20 @@
         position: relative;
     }
 }
+@media (min-width:760px) and (max-width:1200px) {
+    .page-footer{
+        height: 463px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 0px;
+        padding-top: 0px;
+        &-list{
+            gap: 5px;
+        }
+    }
+    .bottom-logo{
+        margin-bottom: 10px;
+    }
+}

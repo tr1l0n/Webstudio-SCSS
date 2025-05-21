@@ -100,3 +100,58 @@
         height: 60px;
     }
 }
+@media (min-width:760px) and (max-width:1200px){
+    .container{
+        max-width: 760px;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+    .head-burger{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        width: 283px;
+        margin-right: 0px;
+        &-link{
+            font-family: "Roboto";
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 2%;
+                &-email{
+                    font-family: "Roboto";
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        letter-spacing: 2%;
+                        color: rgba(117, 117, 117, 1);
+                }
+        }
+    }
+    .page-header{
+        height: 80px;
+        justify-content: space-between;
+    }
+    .nav-extra{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 138px;
+        &-li{
+            display: flex;
+            gap: 5px;
+        }
+        &-phonenumber{
+            padding-right: 10px;
+            gap: 10px;
+        }
+    }
+    .number{
+        font-family: "Roboto";
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 2%;
+    }
+}

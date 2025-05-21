@@ -114,3 +114,22 @@
         gap: 10px;
     }
 }
+@media (min-width:760px) and (max-width:1200px) {
+    .ourteam{
+        height: 1300px;
+        &-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 20px;
+            &-card{
+                width: 354px;
+                height: 536px;
+            }
+        }
+    }
+    .img-card{
+        width: 354px;
+        height: 374px;
+    }
+}

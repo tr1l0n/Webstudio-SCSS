@@ -24,17 +24,17 @@
                 <li class="nav-link"><a href="#" class="nav-link">Контакти</a></li>
             </ul>
             <ul class="nav-extra">
-                <li>
+                <li class="nav-extra-li">
                     <svg width="16px" height="12px" class="svg-email">
-                        <use href="./symbols.svg#email"></use>
+                        <use href="./symbols.svg#email" width="16px" height="12px"></use>
                     </svg>
-                    <a href="#" class="nav-link">info@devstudio.com</a>
+                    <a href="#" class="nav-link-email">info@devstudio.com</a>
                 </li>
                 <li class="nav-extra-phonenumber">
                     <svg width="10px" height="16px" class="svg-phone">
                         <use href="./symbols.svg#phone"></use>
                     </svg>
-                    <p>+38 096 111 11 11</p>
+                    <p class="number">+38 096 111 11 11</p>
                 </li>
             </ul>
             <svg width="24px" height="16px" class="head-burger">
@@ -80,7 +80,7 @@
                     </div>
 
                     <img src="./img/basketball.jpg" alt="Basketball" width="340px" class="item-img">
-                    <h2 class="nameofthings">Постер New Orleo vs Golden Star</h2>
+                    <h2 class="nameofthings marg">Постер New Orleo vs Golden Star</h2>
                     <p class="wheretouse">Дизайн</p>
                 </li>
                 <li class="item">
@@ -189,11 +189,12 @@
         <section class="container">
             <footer class="page-footer">
                 <div class="page-footer-div">
-                    <h4 class="logo"><a href="#" class="logo-bottom"><span class="logo-Web">Web</span>Studio</a></h4>
+                    <h4 class="logo bottom-logo"><a href="#" class="logo-bottom"><span class="logo-Web">Web</span>Studio</a>
+                    </h4>
                     <ul class="page-footer-list">
                         <li class="page-footer-list-li">м.Київ, пр-т Лесі Українки, 26</li>
                         <li class="page-footer-list-li"><a href="#" class="bottominfo">info@devstudio.com</a></li>
-                        <li class="bottominfo" class="page-footer-list-li">+38 096 111 11 21</li>
+                        <li class="bottominfo">+38 096 111 11 21</li>
                     </ul>
                 </div>
                 <div>
@@ -226,10 +227,12 @@
                         <label class="title-form-footer">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
                         <input type="text" placeholder="E-mail" class="input-form-footer">
                     </form>
-                    <button class="btn-sub-footer">Підписатися</button>
-                    <svg width="24px" height="24px" class="svg-tg-footer">
-                        <use href="./symbols.svg#tgfooter" width="24px" height="24px"></use>
-                    </svg>
+                    <div class="footer-tg-btn">
+                        <button class="btn-sub-footer">Підписатися</button>
+                        <svg width="24px" height="24px" class="svg-tg-footer">
+                            <use href="./symbols.svg#tgfooter" width="24px" height="24px"></use>
+                        </svg>
+                    </div>
                 </div>
             </footer>
         </section>

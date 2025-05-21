@@ -192,3 +192,59 @@
             padding-top: 100px;
     }
 }
+@media (min-width:760px) and (max-width:1200px) {
+    .nav-page{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .main-portfolio{
+        height: 2500px;
+    }
+    .main-img{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .item-img{
+        width: 354px;
+        height: 294px;
+    }
+    .item{
+        width: 354px;
+        height: 440px;
+    }
+    .nameofthings{
+        padding-top: 15px;
+        width: 306px;
+    }
+    .wheretouse{
+        padding-top: 15px;
+    }
+    .marg{
+        margin-bottom: 25px;
+        padding-top: 5px;
+    }
+    .wrapper-item-hover{
+        width: 354px;
+        height: 294px;
+    }
+    .item-hover{
+        font-family: "Roboto";
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 3%;
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 70px;
+            opacity: 0.8;
+            width: 354px;
+            height: 294px;
+    }
+    .div-wrapper{
+        width: 354px;
+        height: 294px;
+    }
+}
