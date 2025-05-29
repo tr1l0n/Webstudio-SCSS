@@ -90,6 +90,10 @@
   display: none;
 }
 
+.hamburger-btn {
+  display: none;
+}
+
 @media (min-width: 480px) and (max-width: 760px) {
   .nav {
     display: none;

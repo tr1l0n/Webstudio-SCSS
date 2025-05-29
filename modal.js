@@ -36,9 +36,10 @@ const hamburgerBtn = document.getElementById('hamburgerBtn');
 
     
         document.addEventListener('click', (e) => {
-            if (menuOverlay.classList.contains('active') && 
-                !e.target.closest('.menu-overlay') && 
+            if (menuOverlay.classList.contains('active') &&
+                !e.target.closest('.menu-overlay') &&
                 !e.target.closest('.hamburger-btn')) {
                 closeMenu();
             }
         });
+
