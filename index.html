@@ -18,7 +18,7 @@
         <header class="page-header">
             <a href="#" class="logo"><span class="logo-Web">Web</span>Studio</a>
             <ul class="nav">
-                <li class="nav-link"><a href="#" class="nav-link active">Студія</a></li>
+                <li class="nav-link"><a href="#" class="nav-link active-studio">Студія</a></li>
                 <li class="nav-link"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
                 <li class="nav-link"><a href="#" class="nav-link">Контакти</a></li>
             </ul>
@@ -36,11 +36,14 @@
                     <p class="number">+38 096 111 11 11</p>
                 </li>
             </ul>
-            <svg width="24px" height="16px" class="head-burger">
-                <use href="./symbols.svg#head-phone"></use>
-            </svg>
+            <button class="hamburger-btn" id="hamburgerBtn" onclick="openMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
         </header>
     </div>
+    <div id="mainPage">
     <section class="background-color hero">
         <div class="container">
             <main>
@@ -354,6 +357,29 @@
                 </div>
             </footer>
         </section>
+    </div>
+    </div>
+    <div class="menu-overlay" id="menuOverlay">
+        <button class="close-btn" onclick="closeMenu()">✕</button>
+        <nav class="menu-content">
+            <a href="#" class="menu-item">Студія</a></li>
+            <a href="./portfolio.html" class="menu-item">Портфоліо</a></li>
+            <a href="#" class="menu-item">Контакти</a></li>
+        </nav>
+        <ul class="menu-extra">
+            <li class="menu-extra-item">
+                <a href="#" class="menu-email">info@devstudio.com</a>
+            </li>
+            <li class="menu-extra-item">
+                <p class="menu-number">+38 096 111 11 11</p>
+            </li>
+        </ul>
+        <ul class="menu-social">
+            <li class="menu-social-li">Instagram</li>
+            <li class="menu-social-li">Twitter</li>
+            <li class="menu-social-li">Facebook</li>
+            <li class="menu-social-li">Linkedin</li>
+        </ul>
     </div>
 <script src="./modal.js"></script>    
 </body>

@@ -65,7 +65,7 @@
 .svg-email:hover {
     color: rgba(33, 150, 243, 1);
 }
-.active::after {
+.active-studio::after {
     content: "";
     position: absolute;
     width: 48px;
@@ -98,6 +98,130 @@
     }
     .page-header{
         height: 60px;
+        position: relative;
+        z-index: 10;
+    }
+    .menu-overlay {
+        padding-top: 50px;
+        padding-left: 25px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 1);
+        transform: translateX(-100%);
+        transition: transform 0.4s ease-in-out;
+        z-index: 100;
+    }
+    
+    .menu-overlay.active {
+        transform: translateX(0);
+    }
+    .hamburger-line {
+        width: 24px;
+        height: 3px;
+        background: rgba(33, 33, 33, 1);
+        border-radius: 1px;
+        transition: all 0.3s ease;
+    }
+        
+    .hamburger-btn {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        background-color: transparent;
+        border: 0px;
+    }
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        left: 420px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px ;
+        background-color: white;
+        &:hover{
+            color: $brand-color;
+        }       
+    }
+    .menu-content{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 300px;
+    }
+    .menu-item{
+        font-family: Roboto;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 100%;
+            letter-spacing: 2%;
+            color: rgba(33, 33, 33, 1);
+            &:hover{
+                color: $brand-color;
+            }
+    }
+    .menu-extra{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 70px;
+        &-item:nth-child(1){
+            order: 2;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 2%;
+            color: rgba(117, 117, 117, 1);
+        }
+        &-item:nth-child(2){
+            order: 1;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 100%;
+            letter-spacing: 2%;
+            color: $brand-color;
+        }
+    }
+    .menu-social{
+        display: flex;
+        justify-content: flex-start;
+        &-li{
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 2%;
+            color: $brand-color;
+            text-align: center;
+            height: 22px;
+            border-right: 1px solid rgba(33, 33, 33, 0.2);
+            &:nth-child(1){
+                width: 100px;
+            }
+            &:nth-child(2) {
+                width: 75px;
+            }
+            &:nth-child(3) {
+                width: 100px;
+            }
+            &:nth-child(4) {
+                 width: 100px;
+                 border-right: 0px;
+            }
+        }
     }
 }
 @media (min-width:760px) and (max-width:1200px){
@@ -115,18 +239,18 @@
         margin-right: 0px;
         &-link{
             font-family: "Roboto";
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 100%;
-                letter-spacing: 2%;
-                &-email{
-                    font-family: "Roboto";
-                        font-weight: 500;
-                        font-size: 12px;
-                        line-height: 100%;
-                        letter-spacing: 2%;
-                        color: rgba(117, 117, 117, 1);
-                }
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 2%;
+        }
+        &-email{
+            font-family: "Roboto";
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 2%;
+            color: rgba(117, 117, 117, 1);
         }
     }
     .page-header{
