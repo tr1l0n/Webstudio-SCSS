@@ -94,7 +94,11 @@
   display: none;
 }
 
-@media (min-width: 480px) and (max-width: 759px) {
+.menu-overlay {
+  display: none;
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
   .nav {
     display: none;
   }
@@ -243,9 +247,6 @@
     margin: 0 auto;
   }
   .head-burger {
-    display: none;
-  }
-  .menu-overlay {
     display: none;
   }
   .nav {
@@ -1437,7 +1438,7 @@
     opacity: 1;
   }
 }
-@media (min-width: 480px) and (max-width: 759px) {
+@media (min-width: 480px) and (max-width: 760px) {
   .nav-page {
     width: 426px;
     height: 91px;
