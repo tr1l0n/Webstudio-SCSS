@@ -90,7 +90,7 @@
     top: 0;
     left: 0;
     width: 340px;
-    height: 336px;
+    height: 376px;
 }
 .div-wrapper:hover .wrapper-item-hover {
     animation-name: animationPortfolio;
@@ -129,7 +129,7 @@
         opacity: 1;
     }
 }
-@media (min-width:480px) and (max-width:760px) {
+@media (min-width:480px) and (max-width:759px) {
     .nav-page{
         width: 426px;
         height: 91px;
@@ -206,6 +206,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        padding-left: 0px;
     }
     .item-img{
         width: 354px;
