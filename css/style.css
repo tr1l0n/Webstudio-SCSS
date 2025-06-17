@@ -785,6 +785,7 @@
   .advantages-photo {
     width: 354px;
     height: 120px;
+    display: block;
   }
   .advantages-list {
     display: flex;
@@ -793,6 +794,9 @@
   .advantages-list-li {
     width: 354px;
     height: 224px;
+  }
+  .advantages-list-li::before {
+    display: none;
   }
   .advantages-info {
     font-family: "Roboto";
@@ -1076,6 +1080,11 @@
 @media (min-width: 760px) and (max-width: 1200px) {
   .clients {
     height: 400px;
+  }
+  .clients-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
 }
 .page-footer {

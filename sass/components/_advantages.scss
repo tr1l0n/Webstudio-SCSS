@@ -110,6 +110,7 @@
         &-photo{
             width: 354px;
             height: 120px;
+            display: block;
         }
         &-list{
             display: flex;
@@ -117,6 +118,9 @@
             &-li{
                 width: 354px;
                 height: 224px;
+                &::before{
+                    display: none;
+                }
             }
         }
         &-info {

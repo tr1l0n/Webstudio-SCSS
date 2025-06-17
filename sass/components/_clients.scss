@@ -71,4 +71,10 @@
     .clients{
         height: 400px;
     }
+    .clients-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        
+    }
 }
