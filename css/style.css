@@ -26,6 +26,14 @@
   color: #2196F3;
 }
 
+.nav-extra-li:hover {
+  color: #2196F3;
+}
+
+.nav-extra-phonenumber:hover {
+  color: #2196F3;
+}
+
 .active-port::after {
   content: "";
   position: absolute;
@@ -120,6 +128,7 @@
     z-index: 10;
   }
   .menu-overlay {
+    display: block;
     padding-top: 50px;
     padding-left: 25px;
     position: absolute;
@@ -249,6 +258,9 @@
   .head-burger {
     display: none;
   }
+  .hamburger-btn {
+    display: none;
+  }
   .nav {
     display: flex;
     width: 283px;
@@ -272,6 +284,7 @@
   .page-header {
     height: 80px;
     justify-content: space-between;
+    padding: 10px;
   }
   .nav-extra {
     display: flex;
@@ -1213,7 +1226,7 @@
   border-radius: 50%;
 }
 .svg-footer:hover {
-  background-color: #2F303A;
+  background-color: #2196F3;
 }
 
 .bottom-adress {

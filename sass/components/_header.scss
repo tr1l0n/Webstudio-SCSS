@@ -24,6 +24,12 @@
         color: $brand-color;
     }
 }
+.nav-extra-li:hover{
+    color: $brand-color;
+}
+.nav-extra-phonenumber:hover{
+    color: $brand-color;
+}
 .active-port::after {
     content: "";
     position: absolute;
@@ -108,6 +114,7 @@
         z-index: 10;
     }
     .menu-overlay {
+        display: block;
         padding-top: 50px;
         padding-left: 25px;
         position: absolute;
@@ -239,7 +246,9 @@
     .head-burger{
         display: none;
     }
-
+    .hamburger-btn{
+        display: none;
+    }
     .nav{
         display: flex;
         width: 283px;
@@ -263,6 +272,7 @@
     .page-header{
         height: 80px;
         justify-content: space-between;
+        padding: 10px;
     }
     .nav-extra{
         display: flex;
